@@ -1,0 +1,300 @@
+@charset "utf-8";
+
+/*Fuente personalizada*/
+@font-face {
+    font-family:"BreakingBad";
+    src: url(../Breaking\ Bad.ttf);
+}
+
+:root {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Tabla periódica*/
+#bodyTabla {
+    background-color: #0c3e11;
+    background-image: url(../img/cabecera.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    place-items: center;
+    font-family: Helvetica, sans-serif
+   
+}
+
+#tabla1 {
+    table-layout: fixed;
+    border-spacing: 5px;
+    background-color: rgb(43, 45, 35);
+    margin-top: 20%;
+    margin-right: 20%;
+    margin-left: 20%;
+    text-align: center;
+    
+    
+}
+
+#tabla2 {
+    table-layout: fixed;
+    border-spacing: 5px;
+    background-color: rgb(26, 34, 30);
+    border: 5px solid;
+    margin-top: 5%;
+    margin-left: 22%;
+    text-align: center;
+    
+}
+
+.Mayus {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.minus           {
+    font-size: 14px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+td {
+    width: 70px;
+    height: 70px;
+    margin: 0;
+    padding: 0;
+}
+
+td:empty {
+    background-color: transparent;
+    border: 1px transparent;
+}
+
+/*Colores de la  tabla */
+.Verde_1 {
+    background-color: rgb(183, 219, 33);
+}
+
+.Verde_2 {
+    background-color: rgb(212, 232, 125);
+}
+
+.Verde_3 {
+    background-color: rgb(137, 164, 24);
+}
+
+.Verde_4 {
+    background-color: rgb(59, 86, 32);
+}
+
+.Verde_5 {
+    background-color: rgb(197, 227, 67);
+}
+
+.Verde_6 {
+    background-color: rgb(187, 196, 159);
+}
+
+.Verde_7 {
+    background-color: rgb(126, 141, 67);
+}
+
+.celeste {
+    background-color: rgb(239, 246, 202);
+}
+
+#Ha {
+    background-image: url(../img/hankschrader.png);
+    background-repeat: no-repeat;
+    background-position: cover;
+    margin: 0;
+    padding: 0;
+}
+
+#Ma {
+    background-color: rgb(171, 142, 206);
+}
+
+/*Segunda tabla */
+.verde_tabla_2 {
+    background-color: rgb(195, 198, 41);
+}
+
+#bus {
+    background-image: url(../img/Tabla_Periodica/bus.png);
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-color: rgb(195, 198, 41);
+    background-size: 90%;
+}
+
+#pistola {
+    background-image: url(../img/Tabla_Periodica/pistola.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(195, 198, 41);
+
+}
+
+#pocima {
+    background-image: url(../img/Tabla_Periodica/pocima.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(195, 198, 41);
+}
+
+#movil {
+    background-image: url(../img/Tabla_Periodica/movil.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(195, 198, 41);
+}
+
+#mosca {
+    background-image: url(../img/Tabla_Periodica/mosca.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(195, 198, 41);
+}
+
+#cristal {
+    background-image: url(../img/Tabla_Periodica/cristal.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(195, 198, 41);
+}
+
+#pizza {
+    background-image: url(../img/Tabla_Periodica/pizza.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(195, 198, 41);
+}
+
+#calzoncillos {
+    background-image: url(../img/Tabla_Periodica/calzoncillos.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(195, 198, 41);
+}
+
+#mascara {
+    background-image: url(../img/Tabla_Periodica/mascara.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(195, 198, 41);
+}
+
+#plato {
+    background-image: url(../img/Tabla_Periodica/plato.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(195, 198, 41);
+    background-size: 95%;
+}
+
+/* Index */
+.body-background {
+    background-image: url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#index-container {
+    justify-content: center;
+    height: 100vh;
+    padding: 5rem;
+}
+
+#logo {
+    margin: auto;
+    background-image: url(../img/logo.PNG);
+    background-size: contain;
+    width: 200px;
+    height: 200px;
+}
+
+#lema_container {
+    margin:auto;
+    justify-content: center;
+    padding: 1rem 0;
+}
+
+#lema {
+    margin: auto;
+    color: white;
+    font-family: BreakingBad;
+    display: block;
+    font-size: 2.5rem;
+    text-align:center;
+}
+
+#poster {
+    margin: auto;
+    background-image: url(../img/poster.jpg);
+    background-size:cover;
+    width: 700px;
+    height: 300px;
+    border: 10px outset brown;
+    border-radius: 22px;
+    padding: 1rem 0;
+    position: relative;
+}
+
+#link-formulario {
+    bottom: 75px;
+    right: 154px;
+    height: 108px;
+    width: 58px;
+    position: absolute;
+    display: block;
+}
+
+#link-tabla {
+    bottom: 18px;
+    right: 97px;
+    height: 108px;
+    width: 58px;
+    position: absolute;
+    display: block;
+}
+/* Formulario */
+
+#form-container {
+    background-color: rgba(28, 28, 137, 0.5);
+    padding: 2rem;
+    width: 500px;
+    height: 350px;
+    margin: auto;
+    border-radius: 100px;
+    border: 10px outset darkblue;
+}
+
+.form-text {
+    font-family: Helvetica;
+    color: white;
+}
+
+label {
+    color: white;
+    text-align:left;
+
+}
+
+input {
+    padding: 0 3rem;
+}
+
+.form-entry {
+    padding: 0.5rem;
+}
+
+.form-entry >  {
+    width: 50%;
+}
+
+legend {
+    padding: 0 2rem;
+}
